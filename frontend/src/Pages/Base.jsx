@@ -5,16 +5,15 @@ import Footer from "./include/Footer";
 function Base({ children }) {
   return (
     <>
-    <div className="loader-wrapper">
-  <div className="loader" />
-  <div className="loder-section left-section" />
-  <div className="loder-section right-section" />
-</div>
+      <div className="loader-wrapper">
+        <div className="loader" />
+        <div className="loder-section left-section" />
+        <div className="loder-section right-section" />
+      </div>
 
-        <Header />
-        {children}
-        <Footer />
-      
+      <Header />
+      {children}
+      <Footer />
     </>
   );
 }
